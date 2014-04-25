@@ -21,6 +21,9 @@
 		BE453D851909FD7F00DBA601 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D671909FD7F00DBA601 /* UIKit.framework */; };
 		BE453D8D1909FD7F00DBA601 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE453D8B1909FD7F00DBA601 /* InfoPlist.strings */; };
 		BE453D8F1909FD7F00DBA601 /* aes256Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D8E1909FD7F00DBA601 /* aes256Tests.m */; };
+		BE453DA0190A2BE100DBA601 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D9B190A2BE100DBA601 /* NSData+AES.m */; };
+		BE453DA1190A2BE100DBA601 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D9D190A2BE100DBA601 /* NSData+Base64.m */; };
+		BE453DA2190A2BE100DBA601 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D9F190A2BE100DBA601 /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		BE453D8A1909FD7F00DBA601 /* aes256Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aes256Tests-Info.plist"; sourceTree = "<group>"; };
 		BE453D8C1909FD7F00DBA601 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE453D8E1909FD7F00DBA601 /* aes256Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aes256Tests.m; sourceTree = "<group>"; };
+		BE453D9A190A2BE100DBA601 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		BE453D9B190A2BE100DBA601 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		BE453D9C190A2BE100DBA601 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		BE453D9D190A2BE100DBA601 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		BE453D9E190A2BE100DBA601 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		BE453D9F190A2BE100DBA601 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 		BE453D571909FD7F00DBA601 = {
 			isa = PBXGroup;
 			children = (
+				BE453D99190A2BE100DBA601 /* lib */,
 				BE453D691909FD7F00DBA601 /* aes256 */,
 				BE453D881909FD7F00DBA601 /* aes256Tests */,
 				BE453D621909FD7F00DBA601 /* Frameworks */,
@@ -150,6 +160,20 @@
 				BE453D8B1909FD7F00DBA601 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE453D99190A2BE100DBA601 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D9A190A2BE100DBA601 /* NSData+AES.h */,
+				BE453D9B190A2BE100DBA601 /* NSData+AES.m */,
+				BE453D9C190A2BE100DBA601 /* NSData+Base64.h */,
+				BE453D9D190A2BE100DBA601 /* NSData+Base64.m */,
+				BE453D9E190A2BE100DBA601 /* NSString+Base64.h */,
+				BE453D9F190A2BE100DBA601 /* NSString+Base64.m */,
+			);
+			name = lib;
+			path = aes256/lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE453DA2190A2BE100DBA601 /* NSString+Base64.m in Sources */,
 				BE453D7A1909FD7F00DBA601 /* ViewController.m in Sources */,
 				BE453D741909FD7F00DBA601 /* AppDelegate.m in Sources */,
+				BE453DA1190A2BE100DBA601 /* NSData+Base64.m in Sources */,
+				BE453DA0190A2BE100DBA601 /* NSData+AES.m in Sources */,
 				BE453D701909FD7F00DBA601 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
