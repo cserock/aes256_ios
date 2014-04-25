@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE453D641909FD7F00DBA601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D631909FD7F00DBA601 /* Foundation.framework */; };
+		BE453D661909FD7F00DBA601 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D651909FD7F00DBA601 /* CoreGraphics.framework */; };
+		BE453D681909FD7F00DBA601 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D671909FD7F00DBA601 /* UIKit.framework */; };
+		BE453D6E1909FD7F00DBA601 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE453D6C1909FD7F00DBA601 /* InfoPlist.strings */; };
+		BE453D701909FD7F00DBA601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D6F1909FD7F00DBA601 /* main.m */; };
+		BE453D741909FD7F00DBA601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D731909FD7F00DBA601 /* AppDelegate.m */; };
+		BE453D771909FD7F00DBA601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE453D751909FD7F00DBA601 /* Main.storyboard */; };
+		BE453D7A1909FD7F00DBA601 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D791909FD7F00DBA601 /* ViewController.m */; };
+		BE453D7C1909FD7F00DBA601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE453D7B1909FD7F00DBA601 /* Images.xcassets */; };
+		BE453D831909FD7F00DBA601 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D821909FD7F00DBA601 /* XCTest.framework */; };
+		BE453D841909FD7F00DBA601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D631909FD7F00DBA601 /* Foundation.framework */; };
+		BE453D851909FD7F00DBA601 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE453D671909FD7F00DBA601 /* UIKit.framework */; };
+		BE453D8D1909FD7F00DBA601 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE453D8B1909FD7F00DBA601 /* InfoPlist.strings */; };
+		BE453D8F1909FD7F00DBA601 /* aes256Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453D8E1909FD7F00DBA601 /* aes256Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE453D861909FD7F00DBA601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE453D581909FD7F00DBA601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE453D5F1909FD7F00DBA601;
+			remoteInfo = aes256;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE453D601909FD7F00DBA601 /* aes256.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aes256.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE453D631909FD7F00DBA601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE453D651909FD7F00DBA601 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE453D671909FD7F00DBA601 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE453D6B1909FD7F00DBA601 /* aes256-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aes256-Info.plist"; sourceTree = "<group>"; };
+		BE453D6D1909FD7F00DBA601 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE453D6F1909FD7F00DBA601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE453D711909FD7F00DBA601 /* aes256-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aes256-Prefix.pch"; sourceTree = "<group>"; };
+		BE453D721909FD7F00DBA601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE453D731909FD7F00DBA601 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE453D761909FD7F00DBA601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE453D781909FD7F00DBA601 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE453D791909FD7F00DBA601 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE453D7B1909FD7F00DBA601 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE453D811909FD7F00DBA601 /* aes256Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aes256Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE453D821909FD7F00DBA601 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE453D8A1909FD7F00DBA601 /* aes256Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aes256Tests-Info.plist"; sourceTree = "<group>"; };
+		BE453D8C1909FD7F00DBA601 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE453D8E1909FD7F00DBA601 /* aes256Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aes256Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE453D5D1909FD7F00DBA601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE453D661909FD7F00DBA601 /* CoreGraphics.framework in Frameworks */,
+				BE453D681909FD7F00DBA601 /* UIKit.framework in Frameworks */,
+				BE453D641909FD7F00DBA601 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE453D7E1909FD7F00DBA601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE453D831909FD7F00DBA601 /* XCTest.framework in Frameworks */,
+				BE453D851909FD7F00DBA601 /* UIKit.framework in Frameworks */,
+				BE453D841909FD7F00DBA601 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE453D571909FD7F00DBA601 = {
+			isa = PBXGroup;
+			children = (
+				BE453D691909FD7F00DBA601 /* aes256 */,
+				BE453D881909FD7F00DBA601 /* aes256Tests */,
+				BE453D621909FD7F00DBA601 /* Frameworks */,
+				BE453D611909FD7F00DBA601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE453D611909FD7F00DBA601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D601909FD7F00DBA601 /* aes256.app */,
+				BE453D811909FD7F00DBA601 /* aes256Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE453D621909FD7F00DBA601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D631909FD7F00DBA601 /* Foundation.framework */,
+				BE453D651909FD7F00DBA601 /* CoreGraphics.framework */,
+				BE453D671909FD7F00DBA601 /* UIKit.framework */,
+				BE453D821909FD7F00DBA601 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE453D691909FD7F00DBA601 /* aes256 */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D721909FD7F00DBA601 /* AppDelegate.h */,
+				BE453D731909FD7F00DBA601 /* AppDelegate.m */,
+				BE453D751909FD7F00DBA601 /* Main.storyboard */,
+				BE453D781909FD7F00DBA601 /* ViewController.h */,
+				BE453D791909FD7F00DBA601 /* ViewController.m */,
+				BE453D7B1909FD7F00DBA601 /* Images.xcassets */,
+				BE453D6A1909FD7F00DBA601 /* Supporting Files */,
+			);
+			path = aes256;
+			sourceTree = "<group>";
+		};
+		BE453D6A1909FD7F00DBA601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D6B1909FD7F00DBA601 /* aes256-Info.plist */,
+				BE453D6C1909FD7F00DBA601 /* InfoPlist.strings */,
+				BE453D6F1909FD7F00DBA601 /* main.m */,
+				BE453D711909FD7F00DBA601 /* aes256-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE453D881909FD7F00DBA601 /* aes256Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D8E1909FD7F00DBA601 /* aes256Tests.m */,
+				BE453D891909FD7F00DBA601 /* Supporting Files */,
+			);
+			path = aes256Tests;
+			sourceTree = "<group>";
+		};
+		BE453D891909FD7F00DBA601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE453D8A1909FD7F00DBA601 /* aes256Tests-Info.plist */,
+				BE453D8B1909FD7F00DBA601 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE453D5F1909FD7F00DBA601 /* aes256 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE453D921909FD7F00DBA601 /* Build configuration list for PBXNativeTarget "aes256" */;
+			buildPhases = (
+				BE453D5C1909FD7F00DBA601 /* Sources */,
+				BE453D5D1909FD7F00DBA601 /* Frameworks */,
+				BE453D5E1909FD7F00DBA601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aes256;
+			productName = aes256;
+			productReference = BE453D601909FD7F00DBA601 /* aes256.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE453D801909FD7F00DBA601 /* aes256Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE453D951909FD7F00DBA601 /* Build configuration list for PBXNativeTarget "aes256Tests" */;
+			buildPhases = (
+				BE453D7D1909FD7F00DBA601 /* Sources */,
+				BE453D7E1909FD7F00DBA601 /* Frameworks */,
+				BE453D7F1909FD7F00DBA601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE453D871909FD7F00DBA601 /* PBXTargetDependency */,
+			);
+			name = aes256Tests;
+			productName = aes256Tests;
+			productReference = BE453D811909FD7F00DBA601 /* aes256Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE453D581909FD7F00DBA601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					BE453D801909FD7F00DBA601 = {
+						TestTargetID = BE453D5F1909FD7F00DBA601;
+					};
+				};
+			};
+			buildConfigurationList = BE453D5B1909FD7F00DBA601 /* Build configuration list for PBXProject "aes256" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE453D571909FD7F00DBA601;
+			productRefGroup = BE453D611909FD7F00DBA601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE453D5F1909FD7F00DBA601 /* aes256 */,
+				BE453D801909FD7F00DBA601 /* aes256Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE453D5E1909FD7F00DBA601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE453D7C1909FD7F00DBA601 /* Images.xcassets in Resources */,
+				BE453D6E1909FD7F00DBA601 /* InfoPlist.strings in Resources */,
+				BE453D771909FD7F00DBA601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE453D7F1909FD7F00DBA601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE453D8D1909FD7F00DBA601 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE453D5C1909FD7F00DBA601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE453D7A1909FD7F00DBA601 /* ViewController.m in Sources */,
+				BE453D741909FD7F00DBA601 /* AppDelegate.m in Sources */,
+				BE453D701909FD7F00DBA601 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE453D7D1909FD7F00DBA601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE453D8F1909FD7F00DBA601 /* aes256Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE453D871909FD7F00DBA601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE453D5F1909FD7F00DBA601 /* aes256 */;
+			targetProxy = BE453D861909FD7F00DBA601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE453D6C1909FD7F00DBA601 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE453D6D1909FD7F00DBA601 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE453D751909FD7F00DBA601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE453D761909FD7F00DBA601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE453D8B1909FD7F00DBA601 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE453D8C1909FD7F00DBA601 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE453D901909FD7F00DBA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE453D911909FD7F00DBA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE453D931909FD7F00DBA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aes256/aes256-Prefix.pch";
+				INFOPLIST_FILE = "aes256/aes256-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE453D941909FD7F00DBA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aes256/aes256-Prefix.pch";
+				INFOPLIST_FILE = "aes256/aes256-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE453D961909FD7F00DBA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/aes256.app/aes256";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aes256/aes256-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aes256Tests/aes256Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE453D971909FD7F00DBA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/aes256.app/aes256";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aes256/aes256-Prefix.pch";
+				INFOPLIST_FILE = "aes256Tests/aes256Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE453D5B1909FD7F00DBA601 /* Build configuration list for PBXProject "aes256" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE453D901909FD7F00DBA601 /* Debug */,
+				BE453D911909FD7F00DBA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE453D921909FD7F00DBA601 /* Build configuration list for PBXNativeTarget "aes256" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE453D931909FD7F00DBA601 /* Debug */,
+				BE453D941909FD7F00DBA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE453D951909FD7F00DBA601 /* Build configuration list for PBXNativeTarget "aes256Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE453D961909FD7F00DBA601 /* Debug */,
+				BE453D971909FD7F00DBA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE453D581909FD7F00DBA601 /* Project object */;
+}
